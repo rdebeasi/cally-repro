@@ -27,7 +27,7 @@ const RenderDemo = () => {
       </p>
       <p>
         Note that focusing the button does not trigger a focus event on the
-        container.
+        container, because native focus events do not bubble. This is the expected behavior. 
       </p>
       <pre id="output"></pre>
     </div>
