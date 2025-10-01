@@ -6,6 +6,16 @@ This repo demonstrates an error that occurs when the [Cally](https://github.com/
 
 Check out this repo and run `npm i`.
 
+## Viewing error
+
+1. Run `npm run storybok`. This command runs React + Vite + Storybook.
+2. In a browser, open http://localhost:6006/iframe.html?globals=&id=example-datepicker--basic&viewMode=story
+3. Open browser dev tools and open the console tab.
+4. Click a date.
+5. Note that the follwoing error appears in console: "VM1030 cally.js:19 Uncaught RangeError: Maximum call stack size exceeded".
+6. Press an arrow key.
+7. Note that the highlighted date does not move.
+
 ## Viewing expected behavior
 
 1. Run `npm run dev`. This command runs a React + Vite app.
@@ -16,15 +26,6 @@ Check out this repo and run `npm i`.
 6. Press an arrow key.
 7. Note that the highlighted date moves in the direction of the arrow key that was pressed.
 
-## Viewing error
-
-1. Run `npm run storybok`. This command runs React + Vite + Storybook.
-2. In a browser, open http://localhost:6006/iframe.html?globals=&id=example-datepicker--basic&viewMode=story
-3. Open browser dev tools and open the console tab.
-4. Click a date.
-5. Note that the follwoing error appears in console: "VM1030 cally.js:19 Uncaught RangeError: Maximum call stack size exceeded".
-6. Press an arrow key.
-7. Note that the highlighted date does not move.
 
 ## More details on the error
 
