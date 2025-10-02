@@ -2,6 +2,8 @@
 
 This repo demonstrates an error that occurs when the [Cally](https://github.com/WickyNilliams/cally) date picker is used in Storybook.
 
+https://github.com/storybookjs/storybook/issues/32603
+
 ## Getting started
 
 Check out this repo and run `npm i`.
